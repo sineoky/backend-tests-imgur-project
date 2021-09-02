@@ -1,4 +1,4 @@
-package ru.geekbrains.tests;
+package lesson3;
 
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeAll;
@@ -11,7 +11,7 @@ public abstract class BaseTest {
     static Properties properties;
     static String host;
     static String username;
-    static String token;
+    static String token2;
 
 
     @BeforeAll
@@ -24,7 +24,7 @@ public abstract class BaseTest {
         }
         host=properties.getProperty("host","https://api.imgur.com/3/");
         username=properties.getProperty("username","testprogmath");
-        token=properties.getProperty("auth.token");
+        token2=properties.getProperty("auth.token");
 
         RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
         RestAssured.baseURI=host;
