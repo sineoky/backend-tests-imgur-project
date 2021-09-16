@@ -1,13 +1,7 @@
-package ru.geekbrains.tests;
+package lesson3;
 
-import io.restassured.RestAssured;
 import org.hamcrest.CoreMatchers;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
 
 import static io.restassured.RestAssured.given;
 
@@ -17,7 +11,7 @@ public class AccountTests extends  BaseTest{
     void getAccountPositiveTest() {
         given()
                 //.header("Authorization","Bearer 2cb41b3b38afc5c1c4b4c70107e16d69042f2eb6")
-                .header("Authorization",token)
+                .header("Authorization",token2)
                 .log()
                 .method()
                 .log()
