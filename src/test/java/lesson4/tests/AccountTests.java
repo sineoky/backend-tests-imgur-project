@@ -1,5 +1,6 @@
 package lesson4.tests;
 
+import io.qameta.allure.Feature;
 import io.restassured.RestAssured;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.response.Response;
@@ -33,6 +34,7 @@ void setUp() {
              RestAssured.responseSpecification=responseSpecification;
 }
    @Test
+   @Feature("AuthorisationTests")
     void getAccountPositiveTest() {
         given()
                 .header("Authorization",token)

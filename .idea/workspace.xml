@@ -5,110 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3709824d-ea65-4d08-82f9-549fbd032c63" name="Default Changelist" comment="lesson4 Sineokaya M Allure">
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/bin/allure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/bin/allure.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/config/allure-cucumber.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/config/allure-junit.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/config/allure.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure-commandline-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure-generator-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure-plugin-api-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure1-model-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure2-model-api-1.0-BETA4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure2-model-jackson-1.0-BETA4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure2-model-pojo-1.0-BETA4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/commons-codec-1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/commons-io-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/config/jetty-logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/config/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/flexmark-0.27.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/flexmark-util-0.27.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/freemarker-2.3.23.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/httpclient-4.5.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/httpcore-4.4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jackson-core-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jackson-databind-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jackson-dataformat-xml-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jackson-dataformat-yaml-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jackson-module-jaxb-annotations-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jaxb-api-2.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jaxb-utils-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jcommander-1.72.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jetty-http-9.4.7.v20170914.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jetty-io-9.4.7.v20170914.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jetty-server-9.4.7.v20170914.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jetty-util-9.4.7.v20170914.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/properties-2.0.RC5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/snakeyaml-1.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/stax2-api-3.1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/tika-core-1.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/woodstox-core-5.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/behaviors-plugin/plugin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/behaviors-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/junit-xml-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/junit-xml-plugin/junit-xml-plugin-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/packages-plugin/plugin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/packages-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/trx-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/trx-plugin/trx-plugin-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/xctest-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/xctest-plugin/xctest-plugin-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/xunit-xml-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/xunit-xml-plugin/xunit-xml-plugin-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/05cfd79f-fbad-4fa8-ba25-8d92aa61fb36-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/069a613e-d094-406f-87b1-5082fd7527a5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2549cd44-60da-48ea-bdc6-cf6571355b2d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2fafb6a9-146f-4861-a844-13fbfefc31c0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/32620c91-a7ad-4636-b412-b59ee2d88d7f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/33027541-3600-47c3-bb38-7475f7a53ae8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/41e44088-2556-4702-8c30-04e3b2e1d765-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/64bd3d19-c3a7-4d93-8ea1-f8be3e6f178d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6ac54a67-c34e-4404-8f7b-6f7eb71073e9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/77036e6c-c867-44fa-b38a-26d5724f82bb-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7a51d499-4323-4d05-94fb-fe2f06364b55-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/892c435f-0846-4228-99aa-9230e8e83bc2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/90115e81-a230-453f-a9c8-93974d4e5c3b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9adb442b-4e2d-4d4f-b9a1-8fac0463fb42-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a396684c-07cb-497f-8697-c321a0ce5ac6-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a43cde9a-6e6d-4890-bcc4-b0aa6b75acd1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a6c9f438-08ed-42db-8a43-e7a85936aa90-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ad58452f-010e-424a-9689-5ad530bd5c05-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c1465c71-184c-444d-a1e7-65f2291d0e1b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c690a4d4-b279-4ba7-9958-8b2e19265198-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c70bb4bf-9938-46f1-936c-96dab51cc231-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c868551d-ef9b-4ed8-a21e-8df5bcd3b38c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c9d329b7-092b-4ddf-a16a-08aca7ee9fa9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e4b009ba-6dc9-4f51-9178-f69c1965e6e2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e8fa773e-9e8c-4d59-a411-bb8ef79739f5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e9eb78f5-22b4-47b1-a618-7cddb81ade5c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f505650e-744e-4110-b09d-966b569317ee-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/fdb9e346-5354-4607-87b2-c02b8ea204c1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ffcbbed1-e79a-4aff-99ba-11a50650aac5-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/AccountTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/DeleteImageTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/ImageTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/NotImagesTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/VideoTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson4/tests/AccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson4/tests/AccountTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/lesson4/tests/ImageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson4/tests/ImageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson4/tests/NotImagesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson4/tests/NotImagesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson4/tests/VideoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson4/tests/VideoTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631865923287</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lesson4 Sineokaya M Allure">
+      <created>1631867223624</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631867223624</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

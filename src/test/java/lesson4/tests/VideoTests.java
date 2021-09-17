@@ -1,5 +1,6 @@
 package lesson4.tests;
 
+import io.qameta.allure.Feature;
 import io.restassured.specification.RequestSpecification;
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.AfterEach;
@@ -24,6 +25,7 @@ public class VideoTests extends BaseTest {
     RequestSpecification imageRequestSpecification;
 
     @Test
+    @Feature("VideoMP4Test")
     void uploadImageFileNormalTest() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
@@ -40,6 +42,7 @@ public class VideoTests extends BaseTest {
                 .getString("data.deletehash");
     }
     @Test
+    @Feature("VideoSmallMP4Test")
     void uploadImageFileSmallMp4Test() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
@@ -57,6 +60,7 @@ public class VideoTests extends BaseTest {
     }
 
     @Test
+    @Feature("VideoBigMP4Test")
     void uploadImageFileBigMp4Test() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
