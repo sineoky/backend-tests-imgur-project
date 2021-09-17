@@ -19,6 +19,7 @@
         <lombok.version>1.18.20</lombok.version>
         <allure-maven.version>2.14.0</allure-maven.version>
         <aspectj.version>1.9.6</aspectj.version>
+
     </properties>
 
 

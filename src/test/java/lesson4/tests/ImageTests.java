@@ -27,7 +27,7 @@ import static lesson4.Images.IT_JPG;
 import static lesson4.Images.TIFF_TIF;
 import static lesson4.Images.TIGER;
 import static lesson4.Images.TX2Q;
-
+@Feature("ImageTests")
 public class ImageTests extends BaseTest {
 
     String imageDeleteHash;
