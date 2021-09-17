@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3709824d-ea65-4d08-82f9-549fbd032c63" name="Default Changelist" comment="lesson4 Sineokaya M" />
+    <list default="true" id="3709824d-ea65-4d08-82f9-549fbd032c63" name="Default Changelist" comment="lesson4 Sineokaya M Allure">
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson4/tests/AccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson4/tests/AccountTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson4/tests/ImageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson4/tests/ImageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson4/tests/NotImagesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson4/tests/NotImagesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson4/tests/VideoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson4/tests/VideoTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/lesson4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -51,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sineokiy\IdeaProjects\backend-tests-imgur-project" />
       <recent name="C:\Users\sineokiy\IdeaProjects\backend-tests-imgur-project\src\test\java\lesson4" />
       <recent name="C:\Users\sineokiy\IdeaProjects\backend-tests-imgur-project\src\test\resources\Images" />
     </key>
@@ -61,7 +67,7 @@
       <recent name="lesson4" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeleteImageTests">
+  <component name="RunManager" selected="JUnit.ImageTests">
     <configuration name="AccountTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-tests-imgur-project" />
       <extension name="coverage">
@@ -141,8 +147,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DeleteImageTests" />
         <item itemvalue="JUnit.ImageTests" />
+        <item itemvalue="JUnit.DeleteImageTests" />
         <item itemvalue="JUnit.ImageTests.uploadImageFileTiffTest" />
         <item itemvalue="JUnit.AccountTests" />
         <item itemvalue="JUnit.AccountTests.getAccountPositiveTest" />
@@ -172,7 +178,63 @@
       <option name="project" value="LOCAL" />
       <updated>1630610201725</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lesson4 Sineokaya M">
+      <created>1631803810351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631803810368</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lesson4 Sineokaya M">
+      <created>1631860245648</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631860245648</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lesson4 Sineokaya M">
+      <created>1631864012102</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631864012102</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lesson4 Sineokaya M">
+      <created>1631864369734</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631864369734</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lesson4 Sineokaya M">
+      <created>1631864391002</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631864391002</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lesson4 Sineokaya M">
+      <created>1631865268109</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631865268109</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lesson4 Sineokaya M Allure">
+      <created>1631865923287</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631865923287</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lesson4 Sineokaya M Allure">
+      <created>1631867223624</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631867223624</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +279,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson3 Sineokaya M" />
     <MESSAGE value="lesson4 Sineokaya M" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson4 Sineokaya M" />
+    <MESSAGE value="lesson4 Sineokaya M Allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson4 Sineokaya M Allure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

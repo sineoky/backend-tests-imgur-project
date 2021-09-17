@@ -1,5 +1,6 @@
 package lesson4.tests;
 
+import io.qameta.allure.Feature;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import lesson4.Images;
@@ -35,6 +36,7 @@ public class ImageTests extends BaseTest {
     RequestSpecification imageRequestSpecification;
 
     @Test
+    @Feature("uploadImage")
     void uploadImageFileTest() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
@@ -51,7 +53,8 @@ public class ImageTests extends BaseTest {
                 .getString("data.deletehash");
     }
 
-@Test
+    @Test
+    @Feature("uploadImageTIFF50Mb")
     void uploadImageFileTiff50MbTest() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
@@ -61,13 +64,14 @@ public class ImageTests extends BaseTest {
                 .when()
                 .post(UPLOAD_IMAGE)
                 .prettyPeek()
-                 .then()
-                 .extract()
+                .then()
+                .extract()
                 .response()
                 .jsonPath()
                 .getString("data.deletehash");
     }
     @Test
+    @Feature("uploadImageBig50Mb")
     void uploadImageFileTiffBig50MbTest() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
@@ -85,6 +89,7 @@ public class ImageTests extends BaseTest {
     }
 
     @Test
+    @Feature("uploadImageBMP")
     void uploadImageFileBmpTest() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
@@ -102,6 +107,7 @@ public class ImageTests extends BaseTest {
     }
 
     @Test
+    @Feature("uploadImagePNG2")
     void uploadImageFileImg2Test() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
@@ -118,6 +124,7 @@ public class ImageTests extends BaseTest {
                 .getString("data.deletehash");
     }
     @Test
+    @Feature("uploadImagePNG")
     void uploadImageFileImg3Test() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
@@ -135,6 +142,7 @@ public class ImageTests extends BaseTest {
     }
 
     @Test
+    @Feature("uploadImageJPG")
     void uploadImageFileItTest() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
@@ -152,6 +160,7 @@ public class ImageTests extends BaseTest {
     }
 
     @Test
+    @Feature("uploadImageTIFF")
     void uploadImageFileTiffTest() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
@@ -169,6 +178,7 @@ public class ImageTests extends BaseTest {
     }
 
     @Test
+    @Feature("uploadImageTiger")
     void uploadImageFileTigerTest() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
@@ -202,8 +212,9 @@ public class ImageTests extends BaseTest {
                 .getString("data.deletehash");
     }
 
-    //загрузка по URL
+    //Ð·Ð°Ð³Ñ€ÑƒÐ·ÐºÐ° Ð¿Ð¾ URL
     @Test
+    @Feature("uploadURL")
     void uploadFileURLTest() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
@@ -219,6 +230,7 @@ public class ImageTests extends BaseTest {
     }
 
     @Test
+    @Feature("uploadPNG")
     void uploadFilePNG_1_1Test() {
         imageDeleteHash=  given()
                 .spec(requestSpecification)
@@ -234,7 +246,6 @@ public class ImageTests extends BaseTest {
                 .jsonPath()
                 .getString("data.deletehash");
     }
-
   /*  @Test
     void uploadBase64FileTest() {
         imageDeleteHash=  given()
